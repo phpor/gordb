@@ -10,7 +10,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/phpor/go/rdb/crc64"
+	"github.com/phpor/gordb/crc64"
 )
 const Version = 6
 
