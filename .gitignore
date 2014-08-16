@@ -6,7 +6,9 @@
 # Folders
 _obj
 _test
+# IDE
 .idea
+*.iml
 
 # Architecture specific extensions/prefixes
 *.[568vq]
