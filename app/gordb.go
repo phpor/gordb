@@ -36,7 +36,7 @@ func (p *zipmapdiffdecoder) Hset(key, field, value []byte) {
 
 func maybeFatal(err error) {
 	if err != nil {
-		fmt.Printf("Fatal error: %s\n", err)
+		fmt.Fprintf(os.Stderr, "Fatal error: %s\n", err)
 		os.Exit(1)
 	}
 }
